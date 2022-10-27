@@ -88,4 +88,4 @@ Rules.win?(false, true, false)
 
 ### Contributed to by
 
-- @Cohen-Carlisle
+- @Cohen-Carlisl
