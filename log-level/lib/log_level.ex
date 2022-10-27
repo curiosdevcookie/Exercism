@@ -19,11 +19,6 @@ end
       label == :unknown and legacy? == true -> :dev1
       label == :unknown and legacy? == false -> :dev2
       label == :error or :fatal -> :ops
-
-      label == :warning -> :ignore
-      label == :info -> :ignore
-      label == :debug -> :ignore
-      label == :trace -> :ignore
       true -> :ignore
     end
   end
